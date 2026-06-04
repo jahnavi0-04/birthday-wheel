@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Mystery Wheel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="background-stars">
+    <span>⭐</span>
+    <span>✨</span>
+    <span>⭐</span>
+    <span>✨</span>
+    <span>⭐</span>
+  </div>
+
+  <div class="card">
+    <h1>🎂 Birthday Mystery Wheel 🎂</h1>
+    <p class="subtitle">Spin if you dare... your surprise awaits! ✨</p>
+
+    <div class="wheel-area">
+      <div class="pointer"></div>
+      <canvas id="wheel" width="500" height="500"></canvas>
+    </div>
+
+    <button id="spinBtn">SPIN 🎲</button>
+
+    <div id="result"></div>
+    <div id="message"></div>
+
+    <div id="surpriseBox" class="hidden">
+      <h2>🎉 JACKPOT! 🎉</h2>
+      <p>
+        You unlocked the Mystery Prize!
+        <br><br>
+        You may ask for <b>one reasonable and affordable surprise</b>.
+        I’ll do my best to make it happen 😊✨
+        <br><br>
+        Happy Birthday! Hope this year brings you fun, memories,
+        and amazing adventures 🎂⭐
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
