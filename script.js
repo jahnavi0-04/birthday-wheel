@@ -112,7 +112,8 @@ function spin() {
     } else {
       showResult();
       spinning = false;
-      spinBtn.disabled = false;
+      spinBtn.innerHTML = "🎉 Completed!";
+      spinBtn.disabled = true;
     }
   }
 
